@@ -1,0 +1,157 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: silver;
+	scroll-behavior: smooth;
+}
+.slikaheader {
+	background: url("slika1.jpg.lnk");
+	background-size: cover;
+	height: calc(100vh);
+	border-radius: 0;
+
+}
+.navFix {
+	position:fixed;
+	top:0;
+	background:transparent;
+	width:100%;
+	height:40px;
+	
+} 
+.black {
+	position:fixed;
+	top:0;
+	background:rgb(0,0,0);
+	width:100%;
+	height:50px;
+	opacity:0.5;
+} 
+.navFix{
+background-color: black !important;
+height: auto;
+} 
+
+.navbar-hamburger {
+	font-size:25px;
+	font-weight:600;
+	color:white;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+.navbar-hamburger:hover{
+	text-decoration:none;
+	color:white;
+} 
+.a-link{
+	color: white;
+	font-size: 18px;
+	line-height: 2.278;
+}
+.nav-link:hover {
+	color:white;	
+}
+
+h2{
+	text-align: center;
+	color: black;
+	padding: 15px;
+}
+
+
+  
+.tekst-h1 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+} 
+.button {
+    color: black;
+    border: 2px solid black;
+    border-radius: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none !important;
+  } 
+  
+.button:hover {
+    color: black;
+    background-color: silver;
+    text-decoration: none !important;
+  } 
+
+.glavni{
+	display:block; 
+    margin-left:auto;   
+    margin-right:auto;  
+    padding:50px;
+    width:70%;
+    background-color:rgba(255,255,255,0.7); 
+    margin-bottom:50px;
+}
+.btn {
+	text-decoration:none;
+
+} 
+
+.main{ 
+    width:90%; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding:2% 0;}
+
+.sekcija{
+    background:rgba(255,255,255,0.8); 
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray;
+    padding:30px; 
+    text-align:justify; 
+    line-height:30px;}
+
+
+#linija{
+    height:2px; 
+    background-color:black; 
+    width:20%; 
+    margin-left:0px}
+    
+img {
+  width: 100%;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 50%;
+}
+
+.row {
+  display: table;
+}
+footer{
+    background-color:black; 
+    padding:5px 0px; 
+    text-align:center; 
+    font-weight:bold; 
+    color:silver; 
+    letter-spacing:2px;
+}
+
+#more {display: none;}
+
+.slike{
+    width: 500px;
+    height: auto;
+    
+}
+
+
+
