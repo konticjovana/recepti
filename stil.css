@@ -138,8 +138,8 @@ img {
 }
 footer{
     background-color:black; 
-    padding:5px 0px; 
-    text-align:center; 
+    padding:5px 10px; 
+    text-align:left; 
     font-weight:bold; 
     color:silver; 
     letter-spacing:2px;
