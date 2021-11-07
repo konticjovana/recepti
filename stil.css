@@ -161,3 +161,7 @@ footer{
   height: 200px;
  
 }
+
+table, th, td {
+  border:0px solid black;
+}
